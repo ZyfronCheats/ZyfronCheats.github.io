@@ -16,8 +16,8 @@ body {
     background-position: 0% 50%;
   }
 }
-li {
-     display: inline-block;
+.gradient-button {
+      display: inline-block;
       padding: 10px 20px;
       background: linear-gradient(120deg, blue, black);
       background-size: 200% 100%;
@@ -38,4 +38,4 @@ li {
       100% {
         background-position: 100% 0;
       }
-}
+    }
