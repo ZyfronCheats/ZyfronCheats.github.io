@@ -1,60 +1,24 @@
-.button {
-  position: relative;
-  width: 150px;
-  height: 40px;
+button {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  border: 1px solid #17795E;
-  background-color: #209978;
-  overflow: hidden;
-}
-
-.button, .button__icon, .button__text {
-  transition: all 0.3s;
-}
-
-.button .button__text {
-  transform: translateX(22px);
-  color: #fff;
-  font-weight: 600;
-}
-
-.button .button__icon {
-  position: absolute;
-  transform: translateX(109px);
-  height: 100%;
-  width: 39px;
-  background-color: #17795E;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button .svg {
-  width: 20px;
-  fill: #fff;
-}
-
-.button:hover {
-  background: #17795E;
-}
-
-.button:hover .button__text {
-  color: transparent;
-}
-
-.button:hover .button__icon {
-  width: 148px;
-  transform: translateX(0);
-}
-
-.button:active .button__icon {
-  background-color: #146c54;
-}
-
-.button:active {
-  border: 1px solid #146c54;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 h1 {
