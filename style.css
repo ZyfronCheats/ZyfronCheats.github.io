@@ -17,12 +17,25 @@ body {
   }
 }
 li {
-      display: inline-block;
-      margin: 10px;
+     display: inline-block;
       padding: 10px 20px;
-      background-color: #4CAF50;
+      background: linear-gradient(120deg, blue, black);
+      background-size: 200% 100%;
       color: white;
       text-decoration: none;
       border-radius: 5px;
       cursor: pointer;
+      animation: gradientAnimation 3s ease infinite;
+    }
+
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 100% 0;
+      }
+      50% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 0;
+      }
 }
